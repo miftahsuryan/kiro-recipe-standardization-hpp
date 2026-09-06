@@ -1,0 +1,137 @@
+{
+  "pbtResults": {
+    "2.2 Tulis property test untuk `calculateHPP`": {
+      "status": "passed",
+      "lastRunTimestamp": 1788706776871
+    },
+    "2.4 Tulis property test untuk `calculateSellingPrice`": {
+      "status": "passed",
+      "lastRunTimestamp": 1788706785219
+    },
+    "2.6 Tulis property test untuk `scaleRecipe`": {
+      "status": "passed",
+      "lastRunTimestamp": 1788706789375
+    },
+    "2.8 Tulis property test untuk `formatCurrency`": {
+      "status": "passed",
+      "lastRunTimestamp": 1788706793502
+    }
+  },
+  "executionHistory": {
+    "1. Setup struktur proyek dan tipe data global": [
+      {
+        "executionId": "f1b81362-1725-45b1-9171-e122569ea36e",
+        "chatSessionId": "sess_a5041b48-9a9c-441f-adff-cf9cdf811553",
+        "timestamp": 1788700469283
+      },
+      {
+        "executionId": "f1b81362-1725-45b1-9171-e122569ea36e",
+        "chatSessionId": "sess_a5041b48-9a9c-441f-adff-cf9cdf811553",
+        "timestamp": 1788705735359
+      }
+    ],
+    "2.1 Implementasi `calculateHPP` di `src/shared/lib/calculations.ts`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788706554919
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707133481
+      }
+    ],
+    "2.3 Implementasi `calculateSellingPrice` di `src/shared/lib/calculations.ts`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707137431
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707142232
+      }
+    ],
+    "2.5 Implementasi `scaleRecipe` di `src/shared/lib/calculations.ts`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707146148
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707149976
+      }
+    ],
+    "2.7 Implementasi `formatCurrency` di `src/shared/lib/calculations.ts`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707154281
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707157981
+      }
+    ],
+    "2.2 Tulis property test untuk `calculateHPP`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707162661
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707166434
+      }
+    ],
+    "2.4 Tulis property test untuk `calculateSellingPrice`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707170766
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707176082
+      }
+    ],
+    "2.6 Tulis property test untuk `scaleRecipe`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707180443
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707184214
+      }
+    ],
+    "2.8 Tulis property test untuk `formatCurrency`": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707188478
+      },
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707193435
+      }
+    ],
+    "2. Implementasi pure functions — kalkulasi bisnis utama": [
+      {
+        "executionId": "26c22e2f-9bbf-40ac-a194-e55544e9bb9f",
+        "chatSessionId": "sess_a7a04554-94c2-431f-b87b-6d55ad12ef72",
+        "timestamp": 1788707193466
+      }
+    ]
+  }
+}

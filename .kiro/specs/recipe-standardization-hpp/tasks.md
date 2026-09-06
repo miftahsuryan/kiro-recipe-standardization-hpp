@@ -10,44 +10,44 @@ Stack: React + TypeScript, Zustand, TanStack Query, Tailwind CSS, Vitest, React 
 
 ## Tasks
 
-- [ ] 1. Setup struktur proyek dan tipe data global
+- [x] 1. Setup struktur proyek dan tipe data global
   - Buat struktur direktori sesuai FSD: `src/app`, `src/features/recipes`, `src/features/ingredients`, `src/features/versions`, `src/features/export`, `src/features/cooking-guide`, `src/shared/components`, `src/shared/hooks`, `src/shared/lib`, `src/shared/types`, `src/stores`
   - Tulis semua TypeScript interfaces dan types di `src/shared/types/index.ts`: `Ingredient`, `RecipeIngredient`, `CookingStep`, `Recipe`, `RecipeSummary`, `RecipeVersion`, `HPPResult`, `CostBreakdownItem`, `ProfitSimulation`, `ScaledIngredient`, `ScaleResult`, `RecipeListFilter`, serta enums `RecipeCategory`, `MeasurementUnit`, `RecipeStatus`, `RecipeSortField`, `SortDirection`
   - Setup Vitest dengan konfigurasi `vitest.config.ts` (environment jsdom, setupFiles, coverage thresholds) dan buat `src/test-setup.ts`
   - Install dan konfigurasi fast-check sebagai dev dependency
   - _Requirements: 1.1, 1.4_
 
-- [ ] 2. Implementasi pure functions — kalkulasi bisnis utama
-  - [ ] 2.1 Implementasi `calculateHPP` di `src/shared/lib/calculations.ts`
+- [x] 2. Implementasi pure functions — kalkulasi bisnis utama
+  - [x] 2.1 Implementasi `calculateHPP` di `src/shared/lib/calculations.ts`
     - Hitung `totalBiaya = Σ(quantity_i × pricePerUnit_i)`, `hppPerPorsi = totalBiaya / portions` (dibulatkan 2 desimal)
     - Kembalikan `HPPResult` dengan `breakdown` sepanjang daftar bahan; `isValid: false` jika `portions ≤ 0`
     - _Requirements: 3.1, 3.3, 3.6_
 
-  - [ ]* 2.2 Tulis property test untuk `calculateHPP`
+  - [x] 2.2 Tulis property test untuk `calculateHPP`
     - **Property 1: Kalkulasi HPP Komprehensif**
     - **Validates: Requirements 3.1, 3.3, 3.6**
 
-  - [ ] 2.3 Implementasi `calculateSellingPrice` di `src/shared/lib/calculations.ts`
+  - [x] 2.3 Implementasi `calculateSellingPrice` di `src/shared/lib/calculations.ts`
     - Hitung `hargaJual = HPP / (1 - margin/100)` dan `keuntunganPerPorsi = hargaJual - hppPerPorsi`
     - _Requirements: 4.2, 4.6_
 
-  - [ ]* 2.4 Tulis property test untuk `calculateSellingPrice`
+  - [x] 2.4 Tulis property test untuk `calculateSellingPrice`
     - **Property 2: Kalkulasi Harga Jual dan Invariant Finansial**
     - **Validates: Requirements 4.2, 4.6**
 
-  - [ ] 2.5 Implementasi `scaleRecipe` di `src/shared/lib/calculations.ts`
+  - [x] 2.5 Implementasi `scaleRecipe` di `src/shared/lib/calculations.ts`
     - Hitung `scaledQuantity = round((origQty / origPortions) × targetPortions, 2)` untuk setiap bahan
     - _Requirements: 9.2_
 
-  - [ ]* 2.6 Tulis property test untuk `scaleRecipe`
+  - [x] 2.6 Tulis property test untuk `scaleRecipe`
     - **Property 3: Kalkulasi Skala Porsi Proporsional**
     - **Validates: Requirements 9.2**
 
-  - [ ] 2.7 Implementasi `formatCurrency` di `src/shared/lib/calculations.ts`
+  - [x] 2.7 Implementasi `formatCurrency` di `src/shared/lib/calculations.ts`
     - Format nilai numerik menjadi string dengan prefix "Rp", 2 angka desimal, format angka Indonesia (titik ribuan, koma desimal)
     - _Requirements: 3.4_
 
-  - [ ]* 2.8 Tulis property test untuk `formatCurrency`
+  - [x] 2.8 Tulis property test untuk `formatCurrency`
     - **Property 18: Format Mata Uang Rupiah Konsisten**
     - **Validates: Requirements 3.4**
 
